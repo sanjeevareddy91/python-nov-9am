@@ -1,0 +1,66 @@
+# Database -- Its a software which is used for storing the information.
+    # SQL -- Structured Database(Mysql,Postgres,Oracle,SQLIte,MSSQL Server)
+    # NO-SQL -- Unstructured Database(Mongodb,Dynamodb,Cassandra)
+
+
+# Install MYSQL using the 3rd party software (XAMPP)..
+        # https://www.apachefriends.org/download.html
+
+
+# CRUD :
+
+
+# Step1 : Connect to the Database..
+    # mysql -u username -p password
+    # mysql -u root -p 
+
+# Step2 : Listing the database in the mysql server.
+    # show databases;
+
+# Step3 : Creating the own database.
+    # create database database-name;
+    # create database emp_info;
+
+# Step4 : Using the particular database
+    # use database-name;
+    # use emp_info;
+
+# Step5 : creating the table;
+    # create table table-name(column1-name datatype,column2-name datatype,column3-name datatype);
+    # create table emp_personal_data(emp_name varchar(25),emp_email varchar(25),emp_mobile varchar(10),emp_city varchar(20));
+
+# Step6 : Lists of tables inside the particular database.
+    # show tables;
+
+# Step7 : Description of the table.
+    # desc table-name;
+    # desc emp_personal_data;
+
+# Step8 : Inserting the data into the table..
+    # INSERT INTO table-name(column1,clumn2,column3) VALUES (valu1,value2,value3);
+    # INSERT INTO emp_personal_data(emp_name,emp_email,emp_mobile,emp_city) VALUES('Ramesh','ramesh@gmail.com',7484798765,'Hyderabad');
+
+
+# Step9 : Retrieving the data.
+    # SELECT * from table-name;
+    # SELECT * from emp_personal_data;
+
+    # SELECT emp_name,emp_mobile from emp_personal_data;
+
+    # SELECT * from emp_personal_data where emp_name='Suresh';
+    # SELECT * from emp_personal_data where emp_mobile like '7%' and emp_name like 'S%';
+    # SELECT * from emp_personal_data where emp_mobile like '7%' and emp_name like 'S%' and emp_city="Hyderabad";
+
+
+# Step10: Updating the already existed values;
+    # UPDATE table-name SET column-name=updating-value WHERE condition;
+    # UPDATE emp_personal_data SET emp_mobile="8663765432" WHERE emp_name="Ramesh";
+
+# Step11: Deleting the data and structure.
+    # DELETE from table-name WHERE condition;
+    # DELETE from emp_personal_data WHERE emp_name = 'Naresh';
+
+    # truncate -- will remove all the data from the table and make it as empty table.
+    # truncate table-name;
+
+    # drop table table-name;
