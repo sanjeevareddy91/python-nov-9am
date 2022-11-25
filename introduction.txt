@@ -1,0 +1,25 @@
+Gudio van Rossum.
+
+Name="rajesh"
+name="suresh"
+
+# Features of Python:
+    # Interpreted Language
+    # Platform Independent
+    # General Purpose
+    # Opensource
+    # CaseSensitive
+    # More Library Support..
+
+# Monty Python Flying Circus -- show in 1970(BBC).
+
+# 1989 -- first release(not officially)
+
+# 0.1-> 1991
+
+# 1.0 Version(Stable version) - >1st January(1994).
+
+# 2.7 most stable version..
+
+# now the lastest version in 3.x
+

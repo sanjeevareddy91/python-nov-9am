@@ -1,0 +1,2 @@
+Fullstack is used for web development
+Django is the rapid growing framework
