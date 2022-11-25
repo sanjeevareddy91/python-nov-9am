@@ -1,0 +1,11 @@
+Django Rest Framework is used for apis creation.
+Fullstack is used for web development
+Django is the rapid growing framework
+Fullstack is used for web development
+Django is the rapid growing framework
+Fullstack is used for web development
+Django is the rapid growing framework
+Python is a best programming lanaguage.
+Django is the web framework for python.
+Python is a best programming lanaguage.
+Django is the web framework for python.
