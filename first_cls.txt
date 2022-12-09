@@ -1,0 +1,4 @@
+Python is a best programming lanaguage.
+Django is the web framework for python.
+Devops uses Python for writing the scripts.
+Python is used in GUI development using tkinter.

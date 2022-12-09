@@ -1,0 +1,67 @@
+GIT -- Code Verion Controller
+
+GIT software
+GITHUB.com -- account..
+
+
+# Step1: Initializing the Git repository..
+git init 
+
+# Step2: Check the status.
+
+git status
+
+# Step3: Adding the file into the local repository..
+
+git add filename
+git add .
+
+# Step4 : Commiting the files with the message..
+
+git commit -m "Message"
+
+git commit -m "Pushed my files for the first time"
+
+# Step5: Configuring the github credentials with the local system..
+
+    git config --global user.email "you@example.com"
+    
+    git config --global user.name "your username"
+
+
+# Step6 : adding the remote repository 
+
+    git remote add origin github-repository-link
+
+    git remote add origin https://github.com/sanjeevareddy91/python-nov-9am.git
+
+
+# Step7: Want to see the list of branches in the local repository.
+    git branch 
+
+# Step8: Pushing the code changes to the remote repository..
+
+    git push -u origin master
+
+# Step9 : Pull the updated code form the remote repository.
+
+    git pull  -- This will pull the code from current working branch.
+
+    git pull origin branch-name -- This will pull the code from specified branch-name..
+
+# Step10 : Creating the new branch from the local repository..
+
+    git checkout -b branch-name
+    git checkout -b 6453-add-text-files
+
+# step11 : Fetching the updated all branches from the remote repository 
+    git fecth 
+
+# step12: want to move to specify remote branch.
+    git checkout branch-name
+    git checkout 6564-remove-the-files
+
+# step13: listing all the remove branches that we have fetched..
+    git branch -v -a 
+
+    

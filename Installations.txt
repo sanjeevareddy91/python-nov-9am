@@ -1,0 +1,10 @@
+Python.org -- official website for downloading python.
+
+    # Download Windows Any version(3.10.5).
+    # Please make sure you check box the add Python 3.10 to Path ..
+
+# Open your command prompt or terminal.
+    # python
+        # version of python you have installed ..
+
+# .py is the extension for python files.
